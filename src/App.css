@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  gap: 100px;
+  flex-direction: column;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid green;
+}
+
+.dot {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
